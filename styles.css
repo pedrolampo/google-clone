@@ -58,22 +58,18 @@ body {
     transform: translate(8px, 8px);
 }
 
-.header .user {
-    border-radius: 50%;
-    width: var(--apps-icon-wh);
-    height: var(--apps-icon-wh);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header button {
+    color: #fff;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.4rem;
     cursor: pointer;
+    margin-left: 0.25rem;
 }
 
-.header .user:hover {
-    background-color: #313133;
-}
-
-.header .user-img {
-    border-radius: 50%;
+.header .user button:hover {
+    background-color: #327ee0;
 }
 
 .main-content {
@@ -207,6 +203,8 @@ body {
 
 .footer a {
     margin: 0 0.75rem;
+    color: #bdc1c6;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1400px) {
