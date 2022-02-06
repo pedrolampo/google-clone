@@ -80,7 +80,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 13rem;
+    margin-top: 22vh;
 }
 
 .main-content .google-logo {
